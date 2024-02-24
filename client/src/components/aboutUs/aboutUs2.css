@@ -1,0 +1,32 @@
+.page-heading {
+    margin: auto !important;
+    border-bottom: 1.5px solid #dddddd !important;
+    width: 200px !important;
+    margin-bottom: 40px !important;
+}
+.page-head{
+    margin: auto;
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.nav-bar-back {
+    width: 100%;
+    background-color: white;
+    position: sticky;
+    top: 80px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid #dddddd;
+    transition: 0.2s ease-in-out;
+}
+.aboutUsFilter{
+    min-height: 100px;
+}
+@media screen and (max-width:700px) {
+    .aboutUsFilter{
+        width: 100px;
+        font-size: smaller;
+        min-height: 120px;
+    }
+}
