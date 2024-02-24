@@ -1,0 +1,51 @@
+.video-background {
+    position: relative;
+    overflow: hidden;
+    height: 80vh;
+  }
+  
+  .video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .video-overlay {
+    position: relative;
+    top: 30%;
+    text-align: center;
+    /* transform: translate(-50%, -50%); */
+    text-align: center;
+  }
+  .video-info h1{
+    font-size: 4vh; 
+    /* max-width: 60px; */
+  }
+  .video-info span{
+    font-size: 10vh;
+  }
+  .video-info p{
+    font-size: 3vh; 
+    padding: 1rem;
+  }
+  .video-info{
+    text-shadow: 2px 2px 4px #000000;
+  }
+  @media screen and (max-width:700px) {
+    .video-info h1{
+      font-size: 4vh; 
+    }
+    .video-info span{
+      font-size: 8vh;
+    }
+    .video-info p{
+      font-size: 2vh; 
+      padding: 1rem;
+    }
+    .video-info{
+      text-shadow: 1px 1px 2px #000000;
+    }
+  }

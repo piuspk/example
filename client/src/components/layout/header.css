@@ -1,0 +1,22 @@
+.header-custom{
+    background-color: white;
+    box-shadow: 0 4px 18px 0 rgba(0,0,0,.12), 0 7px 10px -5px rgba(0,0,0,.15);
+}
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+.custom-brandName img{
+    width: 80px;
+    height: 80px;
+}
+@media screen and (max-width:400px) {
+    .custom-brandName{
+        font-size: 20px;
+    }
+    .custom-brandName img{
+        width: 60px;
+        height: 60px;
+    }
+}
